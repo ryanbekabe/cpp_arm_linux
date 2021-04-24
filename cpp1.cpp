@@ -1,7 +1,6 @@
-#include <stdio.h>
-int
-main(int argc, char **argv)
-{
-	printf("Bismillah");
+#include <iostream>
+int main() {
+	std::cout << "Bismillah ini dari CPP - hanyajasa.com";
 	return 0;
 }
+

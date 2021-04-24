@@ -13,8 +13,15 @@ arm-linux-gnueabi-gcc --version
 <br>Copyright (C) 2017 Free Software Foundation, Inc.
 <br>
 <br>
-Compile untuk ARM/Android: 
-arm-linux-gnueabi-gcc -static -march=armv7-a cpp1.cpp -o cpp1.so
+Compile untuk C ARM/Android: 
+```
+arm-linux-gnueabi-gcc -static -march=armv7-a c1.c -o c1.so
+```
+<br>
+Compile untuk C++ ARM/Android:
+```
+arm-linux-gnueabi-g++ -static -march=armv7-a cpp1.cpp -o cpp1.so
+```
 <br>
 Compile untuk non-ARM/Desktop (Intel/AMD):
 gcc cpp1.cpp -o cpp1.so
@@ -45,8 +52,8 @@ gcc((Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 7.5.0)[executable ARM-32]
 
 ```
 git init
-git add README.md
-git commit -m "Last Update Commit @ 24042021"
+git add .
+git commit -m "Last Update Commit @ 24042021_17.04"
 git branch -M main
 git remote add origin https://github.com/ryanbekabe/cpp_arm_linux.git
 git push -u origin main
