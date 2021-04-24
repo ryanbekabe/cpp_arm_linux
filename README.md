@@ -9,7 +9,7 @@ Cek versi:
 arm-linux-gnueabi-g++ --version
 <br>atau: 
 arm-linux-gnueabi-gcc --version
-<br>(Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 7.5.0
+<br>(Ubuntu Linaro 7.5.0-3ubuntu1 18.04) 7.5.0
 <br>Copyright (C) 2017 Free Software Foundation, Inc.
 <br>
 <br>
@@ -22,12 +22,15 @@ gcc cpp1.cpp -o cpp1.so
 <br>
 Contoh script prgram C/C++:
 <br>
-<br>#include <stdio.h>
-<br>int main()
-<br>{
-<br>	printf("Bismillah");
-<br>	return 0;
-<br>}
+'''
+#include <stdio.h>
+int main()
+{
+	printf("Bismillah");
+	return 0;
+}
+'''
+<br>
 <br>
 ID Compile sebagai: 
 gcc((Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 7.5.0)[executable ARM-32]
@@ -38,13 +41,14 @@ gcc((Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 7.5.0)[executable ARM-32]
 <br>Contoh program C++: https://www.programiz.com/cpp-programming/examples
 
 <br>----
-
 <br>
-<br>git init
-<br>git add README.md
-<br>git commit -m "Last Update Commit @ 24042021"
-<br>git branch -M main
-<br>git remote add origin https://github.com/ryanbekabe/cpp_arm_linux.git
-<br>git push -u origin main
 
+'''
+git init
+git add README.md
+git commit -m "Last Update Commit @ 24042021"
+git branch -M main
+git remote add origin https://github.com/ryanbekabe/cpp_arm_linux.git
+git push -u origin main
+'''
 
