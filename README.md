@@ -22,14 +22,14 @@ gcc cpp1.cpp -o cpp1.so
 <br>
 Contoh script prgram C/C++:
 <br>
-'''
+```C
 #include <stdio.h>
 int main()
 {
 	printf("Bismillah");
 	return 0;
 }
-'''
+```
 <br>
 <br>
 ID Compile sebagai: 
@@ -43,12 +43,12 @@ gcc((Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 7.5.0)[executable ARM-32]
 <br>----
 <br>
 
-'''
+```
 git init
 git add README.md
 git commit -m "Last Update Commit @ 24042021"
 git branch -M main
 git remote add origin https://github.com/ryanbekabe/cpp_arm_linux.git
 git push -u origin main
-'''
+```
 
