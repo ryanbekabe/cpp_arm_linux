@@ -8,15 +8,20 @@ apt install g++-arm-linux-gnueabi
 ```
 <br>
 Cek versi: 
+
 ```bash
 arm-linux-gnueabi-g++ --version
 ```
+
 <br>atau: 
+
 ```bash
 arm-linux-gnueabi-gcc --version
 ```
-<br>(Ubuntu Linaro 7.5.0-3ubuntu1 18.04) 7.5.0
-<br>Copyright (C) 2017 Free Software Foundation, Inc.
+
+<br>
+>(Ubuntu Linaro 7.5.0-3ubuntu1 18.04) 7.5.0
+>Copyright (C) 2017 Free Software Foundation, Inc.
 <br>
 <br>
 
@@ -79,7 +84,7 @@ gcc((GNU) 4.9.x 20150123 (prerelease))[shared object ARM-32]
 ```git
 git init
 git add .
-git commit -m "Last Update Commit @ 25042021_11.16"
+git commit -m "Last Update Commit @ 25042021_11.23"
 git branch -M main
 git remote add origin https://github.com/ryanbekabe/cpp_arm_linux.git
 git push -u origin main
