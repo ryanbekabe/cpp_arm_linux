@@ -1,4 +1,4 @@
-Project C/C++ 64-bit/32-bit Cross Platfrom (Intel/AMD <-> ARM/Android)<br>
+Project C/C++ 64-bit/32-bit CrossPlatform (Intel/AMD <-> ARM/Android)<br>
 By HanyaJasa.Com - hanyajasa@gmail.com
 <br>
 <br>
@@ -81,7 +81,7 @@ ID Compile sebagai:<br>
 ```git
 git init
 git add .
-git commit -m "Last Update Commit @ 25042021_13.54"
+git commit -m "Last Update Commit @ 25042021_14.36"
 git branch -M main
 git remote add origin https://github.com/ryanbekabe/cpp_arm_linux.git
 git push -u origin main
