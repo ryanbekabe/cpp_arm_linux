@@ -3,16 +3,16 @@ Project C/C++ 64-bit/32-bit Cross Platfrom (Intel/AMD <-> ARM/Android) by HanyaJ
 <br>
 
 Install GCC atau G++ (space diperlukan sekitar 106 MB) untuk Ubuntu atau WSL menggunakan perintah: 
-```
+```bash
 apt install g++-arm-linux-gnueabi
 ```
 <br>
 Cek versi: 
-```
+```bash
 arm-linux-gnueabi-g++ --version
 ```
 <br>atau: 
-```
+```bash
 arm-linux-gnueabi-gcc --version
 ```
 <br>(Ubuntu Linaro 7.5.0-3ubuntu1 18.04) 7.5.0
