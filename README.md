@@ -1,4 +1,5 @@
-Project C/C++ 64-bit/32-bit Cross Platfrom (Intel/AMD <-> ARM/Android) by HanyaJasa.Com - hanyajasa@gmail.com
+Project C/C++ 64-bit/32-bit Cross Platfrom (Intel/AMD <-> ARM/Android)<br>
+By HanyaJasa.Com - hanyajasa@gmail.com
 <br>
 <br>
 
@@ -20,8 +21,8 @@ arm-linux-gnueabi-gcc --version
 ```
 
 <br>
-*(Ubuntu Linaro 7.5.0-3ubuntu1 18.04) 7.5.0
-*Copyright (C) 2017 Free Software Foundation, Inc.
+*(Ubuntu Linaro 7.5.0-3ubuntu1 18.04) 7.5.0<br>
+*Copyright (C) 2017 Free Software Foundation, Inc.<br>
 
 <br>
 <br>
@@ -62,11 +63,11 @@ int main()
 
 <br>
 <br>
-ID Compile sebagai:
--gcc((Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 7.5.0)[executable ARM-32]
--gcc((Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0)[shared object AMD64-64]
--gcc((Debian 8.3.0-2) 8.3.0)[executable ARM-32]
--gcc((GNU) 4.9.x 20150123 (prerelease))[shared object ARM-32]
+ID Compile sebagai:<br>
+-gcc((Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 7.5.0)[executable ARM-32]<br>
+-gcc((Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0)[shared object AMD64-64]<br>
+-gcc((Debian 8.3.0-2) 8.3.0)[executable ARM-32]<br>
+-gcc((GNU) 4.9.x 20150123 (prerelease))[shared object ARM-32]<br>
 
 <br>
 
@@ -80,7 +81,7 @@ ID Compile sebagai:
 ```git
 git init
 git add .
-git commit -m "Last Update Commit @ 25042021_13.51"
+git commit -m "Last Update Commit @ 25042021_13.54"
 git branch -M main
 git remote add origin https://github.com/ryanbekabe/cpp_arm_linux.git
 git push -u origin main
