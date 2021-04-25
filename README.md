@@ -20,8 +20,9 @@ arm-linux-gnueabi-gcc --version
 ```
 
 <br>
-> (Ubuntu Linaro 7.5.0-3ubuntu1 18.04) 7.5.0
-> Copyright (C) 2017 Free Software Foundation, Inc.
+** (Ubuntu Linaro 7.5.0-3ubuntu1 18.04) 7.5.0 **
+** Copyright (C) 2017 Free Software Foundation, Inc. **
+
 <br>
 <br>
 
@@ -65,20 +66,17 @@ ID Compile sebagai:
 ```
 gcc((Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 7.5.0)[executable ARM-32]
 gcc((Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0)[shared object AMD64-64]
-```
-
-Ada juga ID Compile sebagai:
-```
 gcc((Debian 8.3.0-2) 8.3.0)[executable ARM-32]
 gcc((GNU) 4.9.x 20150123 (prerelease))[shared object ARM-32]
 ```
+
 <br>
 
-<br>----
+<br>
 <br>Contoh progam C: https://www.programiz.com/c-programming/examples
 <br>Contoh program C++: https://www.programiz.com/cpp-programming/examples
 
-<br>----
+<br>
 <br>
 
 ```git
