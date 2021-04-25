@@ -1,14 +1,20 @@
-Project C/C++ Cross Platfrom by HanyaJasa.Com - hanyajasa@gmail.com
+Project C/C++ 64-bit/32-bit Cross Platfrom (Intel/AMD <-> ARM/Android) by HanyaJasa.Com - hanyajasa@gmail.com
 <br>
 <br>
 
 Install GCC atau G++ (space diperlukan sekitar 106 MB) untuk Ubuntu atau WSL menggunakan perintah: 
+```
 apt install g++-arm-linux-gnueabi
+```
 <br>
 Cek versi: 
+```
 arm-linux-gnueabi-g++ --version
+```
 <br>atau: 
+```
 arm-linux-gnueabi-gcc --version
+```
 <br>(Ubuntu Linaro 7.5.0-3ubuntu1 18.04) 7.5.0
 <br>Copyright (C) 2017 Free Software Foundation, Inc.
 <br>
@@ -17,26 +23,26 @@ arm-linux-gnueabi-gcc --version
 Compile untuk C ARM/Android: 
 
 ```bash
-arm-linux-gnueabi-gcc -static -march=armv7-a c1.c -o c1.so
+arm-linux-gnueabi-gcc -static -march=armv7-a c1.c -o c1.armv7.so
 ```
 
 <br>
 Compile untuk C++ ARM/Android:
 
 ```bash
-arm-linux-gnueabi-g++ -static -march=armv7-a cpp1.cpp -o cpp1.so
+arm-linux-gnueabi-g++ -static -march=armv7-a cpp1.cpp -o cpp1.64bitarm.so
 ```
 
 <br>
 Compile untuk non-ARM/Desktop (Intel/AMD):
 
 ```bash
-gcc cpp1.cpp -o cpp1.so
+gcc cpp1.cpp -o cpp1.64bitdesktop.so
 ```
 
 <br>
 <br>
-Contoh script prgram C/C++:
+Contoh script prgram C:
 <br>
 
 ```C
@@ -51,7 +57,16 @@ int main()
 <br>
 <br>
 ID Compile sebagai: 
+```
 gcc((Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 7.5.0)[executable ARM-32]
+gcc((Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0)[shared object AMD64-64]
+```
+
+Ada juga ID Compile sebagai:
+```
+gcc((Debian 8.3.0-2) 8.3.0)[executable ARM-32]
+gcc((GNU) 4.9.x 20150123 (prerelease))[shared object ARM-32]
+```
 <br>
 
 <br>----
@@ -64,7 +79,7 @@ gcc((Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 7.5.0)[executable ARM-32]
 ```git
 git init
 git add .
-git commit -m "Last Update Commit @ 24042021_17.04"
+git commit -m "Last Update Commit @ 25042021_11.16"
 git branch -M main
 git remote add origin https://github.com/ryanbekabe/cpp_arm_linux.git
 git push -u origin main
