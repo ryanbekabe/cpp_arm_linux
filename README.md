@@ -20,8 +20,8 @@ arm-linux-gnueabi-gcc --version
 ```
 
 <br>
->(Ubuntu Linaro 7.5.0-3ubuntu1 18.04) 7.5.0
->Copyright (C) 2017 Free Software Foundation, Inc.
+> (Ubuntu Linaro 7.5.0-3ubuntu1 18.04) 7.5.0
+> Copyright (C) 2017 Free Software Foundation, Inc.
 <br>
 <br>
 
