@@ -38,6 +38,8 @@ Compile untuk C++ ARM/Android:
 
 ```bash
 arm-linux-gnueabi-g++ -static -march=armv7-a cpp1.cpp -o cpp1.64bitarm.so
+arm-linux-gnueabi-gcc -static -march=armv7-a c5.c -o compiled/c5c.arm
+
 ```
 
 <br>
@@ -81,7 +83,7 @@ ID Compile sebagai:<br>
 ```git
 git init
 git add .
-git commit -m "Last Update Commit @ 25042021_14.36"
+git commit -m "Last Update Commit @ 26042021_11.29"
 git branch -M main
 git remote add origin https://github.com/ryanbekabe/cpp_arm_linux.git
 git push -u origin main
