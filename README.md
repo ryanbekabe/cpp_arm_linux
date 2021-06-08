@@ -83,7 +83,7 @@ ID Compile sebagai:<br>
 ```git
 git init
 git add .
-git commit -m "Last Update Commit @ 26042021_11.29"
+git commit -m "Last Update Commit @ 08062021_23.07"
 git branch -M main
 git remote add origin https://github.com/ryanbekabe/cpp_arm_linux.git
 git push -u origin main
